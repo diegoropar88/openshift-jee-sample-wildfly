@@ -3,7 +3,7 @@ package example.microservice;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-@WebService()
+@WebService(name="miServicio")
 public class micro {
 
 	@WebMethod()
